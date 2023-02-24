@@ -1,4 +1,5 @@
 @import "./icons.css";
+@import "./fonts.css";
 
 :root {
 	--primary: #00b050;
@@ -11,6 +12,12 @@
 	--gray60: #000000;
 }
 
+button {
+	font-size: 64px;
+	background-color: red;
+}
+
 body {
 	background-color: var(--gray20);
+	font-family: Avenir;
 }
