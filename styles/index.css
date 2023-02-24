@@ -1,3 +1,5 @@
+@import "./icons.css";
+
 :root {
 	--primary: #00b050;
 	--white: #ffffff;
@@ -10,5 +12,5 @@
 }
 
 body {
-	background-color: blue;
+	background-color: var(--gray60);
 }

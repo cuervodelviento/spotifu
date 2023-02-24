@@ -1,0 +1,7 @@
+.icon-home {
+	background-image: url("../icons/home.svg");
+	background-size: cover;
+	inline-size: 24px;
+	block-size: 24px;
+	display: inline-block;
+}
