@@ -22,3 +22,11 @@
 	position: relative;
 	left: 1px;
 }
+
+.buttonIcon:active {
+	transform: scale(0.9);
+}
+
+.buttonIcon:hover:is([class*="is-"]) {
+	box-shadow: 0 8px rgba(0, 0, 0, 0.3);
+}
