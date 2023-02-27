@@ -1,5 +1,5 @@
 .slider {
-	inline-size: 300px;
+	inline-size: 100%;
 	background: rgba(255, 2555, 255, 0.2);
 	block-size: 0.25rem;
 	border-radius: 0.5rem;
@@ -13,7 +13,7 @@
 	inline-size: var(--progress);
 	display: flex;
 	align-items: center;
-	padding-left: calc(var(--progress) - 2%);
+	padding-left: calc(var(--progress) - 1%);
 	box-sizing: border-box;
 }
 .slider-button {
