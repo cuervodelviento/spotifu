@@ -4,6 +4,7 @@
 @import "./link.css";
 @import "./button-icon.css";
 @import "./sidebar.css";
+@import "./elipsis.css";
 
 :root {
 	font-size: 16px;
