@@ -1,0 +1,6 @@
+.playerVolume {
+	display: flex;
+	align-items: center;
+	gap: 0.5rem;
+	max-inline-size: 6rem;
+}
