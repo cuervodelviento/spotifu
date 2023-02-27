@@ -3,6 +3,8 @@
 @import "./body.css";
 @import "./link.css";
 @import "./button-icon.css";
+@import "./logo.css";
+@import "./list.css";
 
 :root {
 	font-size: 16px;
