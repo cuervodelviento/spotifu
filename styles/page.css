@@ -1,5 +1,25 @@
+@import "./search.css";
+@import "./navigation.css";
+@import "./header.css";
+
+.sticky {
+	position: sticky;
+	top: 0;
+	z-index: 2;
+}
+
 .page {
+	padding: 2rem;
+	padding-inline-end: 0;
+}
+
+.page .header {
+	margin-block-end: 1rem;
+	margin-inline: -2rem;
+}
+
+.page-block {
 	display: flex;
 	flex-direction: column;
-	gap: 5em;
+	gap: 2rem;
 }

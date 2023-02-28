@@ -1,3 +1,7 @@
+@import "./playlist-a.css";
+@import "./playlist-b.css";
+@import "./playlist-list.css";
+
 .playlistList {
 }
 .playlistList-top {
