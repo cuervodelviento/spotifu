@@ -4,12 +4,27 @@
 
 .search i {
 	position: absolute;
+	font-size: 1rem;
+	left: 0.5rem;
+	top: calc(50% - 0.5rem);
+	block-size: 1rem;
+	color: var(--gray10);
 }
 
 .search input {
-	padding-inline-start: 50px;
 	border-radius: 1.25rem;
 	border: none;
 	max-inline-size: 22rem;
 	inline-size: 100%;
+	padding: 0.5rem;
+	padding-inline-start: 2rem;
+	color: var(--gray30);
+}
+
+.search input::placeholder {
+	color: var(--gray10);
+}
+
+.search:focus-within i {
+	color: var(--gray30);
 }
