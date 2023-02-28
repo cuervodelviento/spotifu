@@ -1,0 +1,10 @@
+:root {
+	--sidebarInlineSize: 15rem;
+	--minBlockSize: 37.5rem;
+	--minInlineSize: 48rem;
+	--bottomSize: 5.5rem;
+}
+
+.layout {
+	min-width: var(--minInlineSize);
+}
