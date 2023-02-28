@@ -19,8 +19,6 @@
 	display: flex;
 	flex-direction: column;
 }
-.nowPlaying-actions {
-}
 
 .nowPlaying-description > a {
 	display: block;

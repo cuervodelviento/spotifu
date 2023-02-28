@@ -8,6 +8,7 @@
 @import "./slider.css";
 @import "./player.css";
 @import "./playlist-a.css";
+@import "./playlist-b.css";
 
 :root {
 	font-size: 16px;
