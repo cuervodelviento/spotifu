@@ -1,0 +1,21 @@
+.header {
+	display: flex;
+	gap: 1rem;
+	padding-inline-start: 1.5rem;
+	padding-block: 1rem;
+	align-items: center;
+	position: sticky;
+	top: 0;
+	backdrop-filter: blur(0.125rem);
+	justify-content: center;
+}
+
+@supports not (backdrop-filter: blur(0.125rem)) {
+	.header {
+		background: var(--gray50);
+	}
+}
+
+.header .search {
+	flex: 1;
+}
