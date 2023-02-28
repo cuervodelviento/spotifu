@@ -8,3 +8,25 @@
 .layout {
 	min-width: var(--minInlineSize);
 }
+
+.layout-main {
+	min-block-size: var(--minBlockSize);
+	block-size: calc(100vh - var(--bottomSize));
+	overflow: auto;
+}
+
+.layout-block {
+	display: flex;
+}
+
+.layout-sidebar {
+	inline-size: var(--sidebarInlineSize);
+	block-size: calc(100vh - var(--bottomSize));
+	overflow: auto;
+	flex-shrink: 0;
+}
+
+.layout-bottom {
+	flex: 1;
+	block-size: var(--bottomSize);
+}
