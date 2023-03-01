@@ -18,7 +18,7 @@
 @import "./scrollbar.css";
 
 :root {
-	font-size: 16px;
+	font-size: 14px;
 	--primary: #00b050;
 	--white: #ffffff;
 	--gray10: #b3b3b3;
@@ -34,4 +34,16 @@
 	--baseFontBold: bold 0.875rem/1.375rem var(--basefontFamily);
 	--button: bold 0.875rem/1rem var(--basefontFamily);
 	--smallFont: normal 0.75em / normal var(--basefontFamily);
+}
+
+@media screen and (min-width: 768px) {
+	:root {
+		font-size: 16px;
+	}
+}
+
+@media screen and (min-width: 1367px) {
+	:root {
+		font-size: 18px;
+	}
 }
