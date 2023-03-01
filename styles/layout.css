@@ -24,6 +24,7 @@
 	block-size: calc(100vh - var(--bottomSize));
 	overflow: auto;
 	flex-shrink: 0;
+	background: var(--gray60);
 }
 
 .layout-bottom {
